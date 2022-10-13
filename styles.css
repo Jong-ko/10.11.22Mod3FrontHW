@@ -1,0 +1,49 @@
+header{
+    background-color: lightblue;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+header > hr {
+    padding-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sideBar{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    row-gap: 10px;
+}
+
+.sideBar > div {
+    border: 5px;
+    background-color: azure;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.content > article{
+    border: 5px;
+    background-color: beige;
+}
+
+footer{
+    background-color: lightcyan;
+}
+
+footer > h3 {
+    text-align: center;
+    padding: 10px;
+}
